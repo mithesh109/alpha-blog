@@ -5,6 +5,7 @@ class PagesController < ApplicationController
   end
 
   def about
-    
+    #byebug
+    render :json => params[:page].to_json
   end
 end
